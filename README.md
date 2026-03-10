@@ -1,4 +1,4 @@
-# GenWin Dashboard
+# The GenWin Dashboard
 
 A GenAI-powered financial workbook generator prototype built for a hackathon.
 
