@@ -7,6 +7,7 @@ import { FinancialAnalysis } from './pages/FinancialAnalysis';
 import { WorkbookGenerator } from './pages/WorkbookGenerator';
 import { InsightsAnomalies } from './pages/InsightsAnomalies';
 import { FinancialInsights } from './pages/FinancialInsights';
+import { AIFinancialAssistant } from './pages/AIFinancialAssistant';
 
 export type GeneratedModel = {
   name: string;
@@ -48,6 +49,8 @@ function App() {
         return <WorkbookGenerator models={models} />;
       case 'financial-insights':
         return <FinancialInsights />;
+      case 'ai-financial-assistant':
+        return <AIFinancialAssistant />;
       case 'insights-anomalies':
         return <InsightsAnomalies />;
       default:

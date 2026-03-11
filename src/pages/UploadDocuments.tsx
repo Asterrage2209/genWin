@@ -83,7 +83,7 @@ export function UploadDocuments({ onNavigate, onDocumentProcessed }: UploadDocum
                             ref={fileInputRef}
                             onChange={handleFileSelect}
                             className="hidden"
-                            accept=".pdf,.xlsx,.csv"
+                            accept=".pdf,.xls,.xlsx,.png,.jpg,.jpeg"
                         />
                         <div className="flex flex-col items-center gap-4 text-center">
                             <div className="p-4 bg-[#FF7A00]/10 rounded-full text-[#FF7A00]">
@@ -95,7 +95,7 @@ export function UploadDocuments({ onNavigate, onDocumentProcessed }: UploadDocum
                             </div>
                             <div>
                                 <h3 className="text-lg font-medium text-white mb-1">Click or drag and drop</h3>
-                                <p className="text-[#9CA3AF] text-sm">PDF, XLSX, CSV, up to 50MB</p>
+                                <p className="text-[#9CA3AF] text-sm">PDF, Excel, Images, up to 50MB</p>
                             </div>
                         </div>
                     </div>
